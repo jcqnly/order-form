@@ -1,0 +1,66 @@
+body {
+  width: 905px;
+  margin: auto;
+  background-color: rgb(7, 146, 114)
+}
+
+header h1 {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 5em;
+  margin: 5px;
+  text-align: center;
+  color: rgb(250, 246, 8);
+}
+
+fieldset {
+  border: 2px solid rgb(250, 246, 8);
+  border-radius: 20px;
+  padding: 10px 0 20px 10px;
+  margin-bottom: 30px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 1.5em;
+}
+
+#choices, #quantity, #custInfo {
+  font-size:15pt;
+}
+
+legend {
+  color: rgb(16, 2, 65);
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(250, 246, 8);
+  border: 1px solid rgb(16, 2, 65);
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button {
+  font-family: 'Patrick Hand SC', cursive;
+  color: rgb(16, 2, 65);
+  background-color: rgb(250, 246, 8);
+  font-size: 20px;
+}
+
+.shadow {
+  text-shadow:
+  -2px -2px 0 #057979,
+  2px -2px 0 #057979,
+  -2px 2px 0 #057979,
+  2px 2px 0 #057979;
+}
+
+a {
+  text-decoration: none;
+  text-indent: 30px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 30px;
+  font-size: 20px;
+  color:rgb(250, 246, 8);
+}
+
+a:hover {
+  color: white;
+}

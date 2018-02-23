@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bus Mall Order Form</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Raleway" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Bus Mall Order Form</h1>
+  </header>
+
+  <main>
+    <!-- dropdown menu -->
+    <form id = "submitInfo">
+        <fieldset>
+          <legend>Please Select an Item and Quantity</legend>
+        <select name = "choices" id = "choices">
+              <option value="bag">R2D2 Bag</option>
+              <option value="banana">Banana Slicer</option>
+              <option value="bathroom">Bathroom</option>
+              <option value="boots">BestRainboots</option>
+              <option value="breakfast">All In 1 Breakfast</option>
+              <option value="bubblegum">Meatball BubbleGum</option>
+              <option value="chair">Chair</option>
+              <option value="cthulhu">Cthulhu</option>
+              <option value="dog-duck">Dog Duck</option>
+              <option value="dragon">Dragon Meat</option>
+              <option value="pen">pen</option>
+              <option value="pet-sweep">pet sweep</option>
+              <option value="scissors">scissors</option>
+              <option value="shark">shark</option>
+              <option value="sweep">sweep</option>
+              <option value="tauntaun">tauntaun</option>
+              <option value="unicorn">unicorn</option>
+              <option value="usb">usb</option>
+              <option value="water-can">water can</option>
+              <option value="wine-glass">wine glass</option>
+            </select>
+
+            <!-- quantity -->
+            <input type="number" id = "quantity" name = "quantity" title = "quantity" type = "number" placeholder = "quantity" min = "0" /> 
+
+            <!-- Add to Cart button -->
+            <button type="submit">Add to Cart!</button>
+        </fieldset>
+
+        <fieldset id = "info">
+          <legend>Enter shipping info</legend>
+        
+          <label for = "firstName">First Name: </label>
+          <input name = "firstName" type = "text" size = "25" id = "custInfo" /><br>
+  
+          <label for = "lastName">Last Name: </label>
+          <input name = "lastName" type = "text" size = "25" id = "custInfo" /><br>
+  
+          <label for = "street">Street: </label>
+          <input name = "street" type = "text" size = "25" id = "custInfo" /><br>
+  
+          <label for = "city">City: </label>
+          <input name = "city" type = "text" size = "25" id = "custInfo" /><br>
+  
+          <label for = "state">State: </label>
+          <input name = "state" type = "text" size = "2" id = "custInfo" /><br>
+  
+          <label for = "zipCode">Zip Code: </label>
+          <input name = "zipCode" type = "number" size = "4" id = "custInfo" /><br>
+  
+          <button type="submit">Add!</button>
+        </fieldset>
+     </form>
+  </main>
+
+  <a href="cart.html">Go To Your Cart</a>
+<script src="js/app.js"></script>  
+</body>
+</html>
